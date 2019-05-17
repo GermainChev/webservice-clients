@@ -62,7 +62,7 @@ use Data::Dumper;
 use Time::HiRes qw(usleep);
 
 # Base URL for service
-my $baseUrl = 'https://www.ebi.ac.uk/Tools/services/rest/iprscan5';
+my $baseUrl = 'http://www.ebi.ac.uk/Tools/services/rest/iprscan5';
 my $version = '2019-01-17 15:15';
 
 # Set interval for checking status
